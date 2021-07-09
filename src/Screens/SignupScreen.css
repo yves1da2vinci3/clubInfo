@@ -1,0 +1,41 @@
+.or {
+    transform: translateY(-30px);
+    box-shadow: 0 25px 70px -12px rgba(0, 0, 0, 0.45);
+}
+@media (min-width: 768px) {
+    
+    .input{
+        width: 30rem;
+        height: 6rem;
+    }
+    
+    
+    .input:not(:last-child){
+        width: 40rem;
+        height: 4rem;
+    }
+}
+@media (max-width: 768px){
+    .input{
+        width: 20rem;
+        height: 5rem;
+    }
+    
+    .formContainer{
+        width: 100vw;
+        height:100vh;
+    }
+    .bottomForm{
+        height: 25vh;
+    }
+    .topForm{
+        height: 70vh;
+    }
+    .input:not(:last-child){
+        width: 20rem;
+        height: 2rem;
+    }
+}
+.input[type='email']:not(:valid){
+    border-color: rgb(218, 41, 41);
+}

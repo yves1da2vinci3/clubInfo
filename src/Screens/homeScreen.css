@@ -1,0 +1,80 @@
+.imgdiv .computerImg{
+    max-width: 85%;
+    height: auto;
+    z-index: 35;
+    
+
+}
+.ParentContainer{
+    width:100%;
+}
+.boxContainer{
+    height:500px;
+    width:100%;
+    margin-bottom: 18.7rem;
+}
+.imgdiv{
+    height:400px;
+    width:100%;
+    left: 20rem;
+    top:4rem;
+}
+.imgdiv .imgred{
+    max-width:30%;
+    left:2rem;
+}
+.imgdiv .imgyellow{
+    max-width:40%;
+    left:32rem;
+ 
+}
+.imgdiv .imggreen{
+    max-width:45%;
+    left:30rem;
+    top:14rem;
+   
+}
+.imgdiv .imgpurple{
+    max-width:55%;
+    top:18rem;
+    
+}
+.InnerImg{
+    transform: rotate(13deg);
+    width: 30.3rem;
+    height: 21.3rem;
+    left: 11.7rem;
+    top:5.5rem;
+    object-fit: cover;
+    z-index: 34;
+}
+.caption {
+    position: relative;
+    transform: translateX(-10%);
+    font-weight: 600;
+    color: black;
+}
+.slidingVertical {
+    display: inline;
+    text-indent: 12px;
+}
+.slidingVertical span{
+    display:block;
+}
+.slidingVertical span:nth-child(2){
+    display:none;
+}
+.slidingVertical span:nth-child(3){
+    display:none;
+}
+
+.card{
+    height:45rem;
+    width: 43rem;
+    transition:  .4s ease;
+    
+}
+.card:hover{
+    transform: scale(1.04);
+    
+}

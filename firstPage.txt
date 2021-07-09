@@ -1,0 +1,56 @@
+   <div className='boxcontainer'>
+               <ul className="navbar bg-white-50">
+                   <span className='left-side'>
+                   <li > DSC-CLUBINFO</li>
+                   <li > <a href="#" > Liste des challenges</a></li>
+                   </span>
+                   <span className='right-side'>
+                   <li > <a href="#">creer un compte</a></li>
+                   <li > <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+</svg> <a  href="#">  se connecter</a></li>
+                   </span>
+               </ul>
+               <div className='banniere-img' >
+                        <h1 > la <span>plateforme</span> qui abrite les 
+                            challenges <span>informatiques</span> en cote d'ivoire
+                
+                             </h1>
+                        <h2>
+                            sur challengeinfo.ci,les ecoles ,les <span>startups </span> 
+                            
+                             et <span>entreprises</span> proposent des projets
+                            </h2>     
+                            <div className='btnContainer'>
+               <Button Title='voir les challenges' bgColor='green-500' textColor='white' />
+               <Button Title='continuer challenge' bgColor='blue-600' textColor='white'/>
+               </div> 
+               </div>
+               
+               <ul className="bg-gray-200 banniere-footer">
+                   <li > <a href="#" > challenges etudiants</a></li>
+                   <li > <a href="#">challenges startups</a></li>
+                   <li > <a  href="#">hackathon</a></li>
+               </ul>
+            </div>
+            <h1 className='title'> les challenges du moment </h1>
+
+            <div className='cardContainer'>
+               <Card title='esatic'
+                description='Developer les competences des participants' 
+                level='difficile' 
+                price='300000 FCFA' 
+                duration='30' 
+                image='https://www.ip-paris.fr/sites/default/files/styles/actualite_full/public/pages/images/2020-09/Design.jpg?itok=6tEGAhw8' />
+               <Card title='inphb' description='modiaaa' level='difficile' price='300000  FCFA' duration='30' image='https://www.lafabriquedunet.fr/wp-content/uploads/2018/01/design-web.jpg' />
+                </div>
+                <div  className='bouton'>
+                <Button  Title='Tout les challenges' bgColor='blue-600' textColor='white'/>  
+                </div>
+
+                <div className='details' >
+                  <h1 className='title2'> Il y a des challenges pour vous :</h1>
+                  <div className='rowSet'>
+                
+                  </div>
+                </div>

@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    .formContainer{
+        width: 58rem;
+        height:100%;
+    }
+    .input{
+        width: 30rem;
+        height: 6rem;
+    }
+    
+    
+    .input:not(:last-child){
+        width: 40rem;
+        height: 4rem;
+    }
+}
+@media (max-width: 768px){
+    .input{
+        width: 15rem;
+        height: 3rem;
+    }
+    
+    
+    .input:not(:last-child){
+        width: 20rem;
+        height: 2rem;
+    }
+}

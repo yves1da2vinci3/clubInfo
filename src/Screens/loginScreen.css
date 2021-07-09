@@ -1,0 +1,21 @@
+.input{
+    width: 74rem;
+    height: 15rem;
+}
+input[type='email']:not(:valid){
+    border-color: rgb(218, 41, 41);
+}
+.input:not(:last-child){
+    width: 100rem;
+    height: 10rem;
+}
+@media (max-width: 768px){
+    #btnsubmit{
+        width: 20rem;
+        height: 5rem;
+    }
+    
+}
+/* .BoxContainer {
+    height:92vh;
+} */

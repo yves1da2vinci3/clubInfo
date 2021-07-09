@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+:root{
+    font-size: 10px;
+}
+.boxcontainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    box-shadow: 0.4rem 0.2rem 0.1rem #121212 ;
+    flex:1;
+    flex-direction : row;
+    justify-content: space-between;
+    padding: 1.6rem;
+    flex-wrap: wrap;
+}
+.navbar span {
+display: flex;
+flex-direction: row;
+margin-right: 4rem;
+}
+.navbar span li {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1.5rem;
+    font-weight: 400;
+}
+
+.navbar span:nth-child(2) li:nth-child(2) svg {
+  position: relative;
+  top: 0.45rem;
+  left: 2.6rem;
+    margin-right: 4rem;
+}
+.navbar span li  a{
+    text-decoration: none;
+}
+.banniere-img{
+    flex:1;
+    padding: 10rem;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://www.gettingsmart.com/wp-content/uploads/2017/07/Coding-Computer-Science.jpg');
+    height: 20rem;
+}
+.banniere-img h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: rgb(247, 247, 235);
+}
+.banniere-img h1 span {
+    color:rgb(47, 11, 206);
+}
+
+.banniere-img h2 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: rgb(247, 247, 235);
+}
+
+.banniere-img h2 span {
+    color:rgb(47, 11, 206);
+}
+.btnContainer{
+    display: flex;
+    justify-content:center;
+    flex:1;
+}
+.banniere-footer {
+    display: flex;
+    flex:1;
+    flex-direction : row;
+    justify-content: space-around;
+    padding: 1.6rem;
+    flex-wrap: wrap;
+}
+
+.banniere-footer li {
+    font-size: 2.4rem;
+}
+
+.title{
+    font-size: 4rem;
+    color:#121212;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.title2{
+    font-size: 2rem;
+    color:#121212;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 6rem;
+}
+.cardContainer{
+    display: flex;
+    flex: 1;
+   flex-wrap: wrap;
+    margin-top: 6rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+}
+.bouton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
+.details{
+     background-color: rgb(236, 230, 230);
+     display: flex;
+     flex-direction: column;
+}
+.rowSet{
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+justify-content:center;
+}

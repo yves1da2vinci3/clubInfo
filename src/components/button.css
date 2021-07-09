@@ -1,0 +1,21 @@
+.btn{
+    display: flex;
+    box-shadow: 0 0.2rem 0.5rem #121212;
+    width: 32rem;
+    margin-top: 4rem;
+      height: 7.4rem;
+      margin-right: 3rem;
+      margin-left: 4rem;
+      padding: 1.8rem;
+      border-radius: 3.7rem;
+      justify-content: center;
+      align-items: center;
+}
+.btn:hover{
+    background-color: transparent;
+}
+
+.btn p {
+    font-size: 3rem;
+    font-weight: 400;
+}
